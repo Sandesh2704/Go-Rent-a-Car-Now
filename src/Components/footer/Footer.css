@@ -105,3 +105,8 @@ font-weight: 400;
     font-style: 30px;
 }
 
+@media only screen and (max-width:480px) {
+  .newletter{
+    margin-bottom: 20px;
+  }
+}

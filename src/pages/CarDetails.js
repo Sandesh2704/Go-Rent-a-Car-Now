@@ -64,7 +64,7 @@ export default function CarDetails() {
 
           <div className="read_section dexstop mb-3">
             <div className="read_section_title">
-              <h4>Read before you book <span>properly</span> </h4>
+              <h4>Read before you book  </h4>
               <i onClick={toggleVisibility} className={isVisible ? 'ri-arrow-down-s-fill' : 'ri-arrow-right-s-fill'} ></i>
             </div>
 
