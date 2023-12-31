@@ -10,21 +10,19 @@ import Contact from '../pages/Contact'
 import { AnimatePresence } from 'framer-motion'
 
 
-
-
 export default function Routers() {
   return (
     <>
     <AnimatePresence>
       <Routes>
         <Route path='/' element={<Navigate to='/home' />} />
-        <Route path='/home' element={<Home />} />
+        <Route path='*' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/blog/:slug' element={<BlogDetail />} />
         <Route path='/cars' element={<CarListing />} />
         <Route path='/cars/:slug' element={<CarDetails />} />
-        <Route path='*' element={<Contact />} />
+        <Route path='/contact' element={<Contact />} />
       </Routes>
       </AnimatePresence>
     </>
